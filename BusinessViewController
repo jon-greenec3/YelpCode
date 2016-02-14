@@ -13,10 +13,15 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     @IBOutlet weak var tableView: UITableView!
     
     
-    var business: [Business]!
+    var businesses: [Business]!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        searchBar = UISearchBar()
+        searchBar.sizeToFIt()
+        
+        navigationItem.titleView = searchBar
         
         
         tableView.delegate = self
@@ -65,4 +70,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     
 }
+
+
 
