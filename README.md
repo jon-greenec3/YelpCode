@@ -1,4 +1,4 @@
-#Yelp App - *Movies-List*
+#Yelp App - *Yelp*
 
 **Yelp Code** is a yelp based app using the [The Yelp Database API](http://docs.yelp.apiary.io/#).
 
