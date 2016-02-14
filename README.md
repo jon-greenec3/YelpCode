@@ -8,11 +8,9 @@ Time spent: **3** hours spent in total
 
 The following **required** functionality is complete:
 
-- [x] a task list item
-- [x] list syntax required
-- [x] normal **formatting**, @mentions, #1234 refs
-- [ ] incomplete
-- [x] completed
+- [x] Search Bar
+- [x] Auto Layout Constraits 
+- [x] Dynamic Height
 
 The following **optional** features are implemented:
 
